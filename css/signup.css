@@ -1,0 +1,13 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-image: url(/Images/bgi1.jpg);
+    background-size:cover;
+    /* background-position: center; */
+    font-family: sans-serif;
+}
+
+.myMargin{
+    margin-top: 80px;
+    margin-left: 800px;
+}
