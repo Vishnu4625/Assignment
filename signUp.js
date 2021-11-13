@@ -1,5 +1,5 @@
 let email = document.getElementById("email");
-var pwd = document.getElementById("pwd");
+let pwd = document.getElementById("pwd");
 let mobileNo = document.getElementById("mobileNo");
 function validate(){
     let regexp1 = /^([A-Za-z0-9\.-]+)@([A-Za-z0-9\-]+)\.([a-z]{2,3})(\.[a-z]{2,3})?$/;
@@ -21,7 +21,7 @@ function validate(){
 	        alert("Not a valid Phone Number");
 	        return false;
         }
-        
+
         if(pwd.value.match(regexp2)){
             // return true;
 
