@@ -65,22 +65,22 @@
   <div class="login-box">
     <img src="./Images/avatar.jpg" class="avatar" alt="">
     <h1>Login</h1>
-    <form action="">
+    <form action="./index.html" onsubmit="return validate()">
       <div class="logincontent">
-        <label>User Name</label>
+        <label>Email</label>
         <br>
-        <input type="text" placeholder="Enter your Username">
-    </div>
-    <br>
-    <div class="logincontent">
+        <input type="text" placeholder="Enter your Email Id" id="email">
+      </div>
+      <br>
+      <div class="logincontent">
         <label>Password</label>
         <br>
-        <input type="password" placeholder="Enter your Password">
-    </div>
-    <br>
-    <div>
-        <button id="login-button">Log In</button>
-    </div>
+        <input type="password" placeholder="Enter your Password" id="pwd">
+      </div>
+      <br>
+      <div>
+       <button id="submit">Log In</button>
+      </div>
     <br>
     <div class="login-extra">
       <a href="#">Forget Password</a>
@@ -89,5 +89,6 @@
     </form>
 
   </div> 
+  <script src="loginForm.js"></script>
 </body>
 </html>
